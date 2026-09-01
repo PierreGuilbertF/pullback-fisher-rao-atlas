@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated paper."
+title: "Pullback Fisher-Rao Geometries of Parametric Probability Families: An Expository Atlas"
+authors:
+  - family-names: "Guilbert"
+    given-names: "Pierre"
+year: 2026
+repository-code: "https://github.com/PierreGuilbertF/pullback-fisher-rao-atlas"
