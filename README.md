@@ -71,11 +71,14 @@ Until the HAL/arXiv identifiers are available:
 
 ```bibtex
 @misc{Guilbert2026PullbackFisherRao,
-  author = {Pierre Guilbert},
-  title  = {Pullback Fisher--Rao Geometries of Parametric Probability Families:
-            An Expository Atlas},
-  year   = {2026},
-  note   = {Preprint}
+  author    = {Pierre Guilbert},
+  title     = {Pullback Fisher--Rao Geometries of Parametric Probability Families:
+               An Expository Atlas},
+  year      = {2026},
+  note      = {Preprint},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.22921871},
+  url       = {https://doi.org/10.5281/zenodo.22921871}
 }
 ```
 
