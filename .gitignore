@@ -1,0 +1,5 @@
+.DS_Store
+__pycache__/
+# Local manuscript inputs; publish only the prepared web versions.
+/paper_fr.tex
+/fisher_rao_hal_v1.pdf
