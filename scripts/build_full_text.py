@@ -71,8 +71,11 @@ heading = re.search(r'<h1.*?</h1>', landing, re.S).group(0)
 abstract = re.search(r'<h2>Abstract</h2>\s*<p>.*?</p>', landing, re.S).group(0)
 article = (head + '<body><a class="skip" href="#main">Skip to content</a><main id="main" class="full-text">'
            '<nav aria-label="Breadcrumb"><a href="../../">Publications</a> · <a href="./">Abstract and citation</a> · '
-           '<a href="paper.pdf">PDF</a></nav>' + heading +
+           '<a href="paper.pdf">PDF</a> · <a href="gallery.html">Figure gallery</a></nav>' + heading +
            '<p class="byline">Pierre Guilbert · September 1, 2026 · Preprint</p>' + abstract + body +
            '</main><footer><a href="./">Abstract and citation</a> · <a href="paper.pdf">PDF version</a></footer></body></html>')
 (TARGET / 'full-text.html').write_text(article)
 print('Generated full-text.html with', len(list(assets.glob('*.jpg'))), 'figures.')
+
+from build_figure_gallery import build_gallery
+build_gallery()
